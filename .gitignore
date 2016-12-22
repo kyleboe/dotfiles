@@ -1,0 +1,44 @@
+# ZSH junk
+/.zcompdump*
+/.zsh-update
+
+# macOS Junk
+.DS_Store
+.Trash
+
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+github
+
+# Any history files
+/.*history
+
+# github config
+/.gitconfig
+
+# general junk
+/.CFUserTextEncoding
+/.bash_profile
+/.bash_sessions
+/.bundle
+/.gem
+/.tmux
+/.ssh
+/.viminfo
+/.subversion
+/.rbenv
+/*.rdb
+/.oh-my-zsh
+/.nvm
+
+!.nvm/install.sh
+!Brewfile
+!.zshrc
+!.tmux.conf
