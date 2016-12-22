@@ -1,3 +1,6 @@
+# non-dot files
+/[^.]*
+
 # ZSH junk
 /.zcompdump*
 /.zsh-update
@@ -5,17 +8,6 @@
 # macOS Junk
 .DS_Store
 .Trash
-
-Applications
-Desktop
-Documents
-Downloads
-Library
-Movies
-Music
-Pictures
-Public
-github
 
 # Any history files
 /.*history
