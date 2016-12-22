@@ -12,6 +12,7 @@ brew 'pcre'
 brew 'pkg-config'
 brew 'readline'
 brew 'postgresql', restart_service: true
+brew 'pyenv'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'reattach-to-user-namespace'
