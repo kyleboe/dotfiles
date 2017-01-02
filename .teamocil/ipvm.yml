@@ -3,7 +3,9 @@ windows:
     root: ~/github/IP-Video-Market-Info
     layout: tiled
     panes:
-      - git status
+      - commands:
+        - subl .
+        - git status
       - dank sidekiq
       - dank rails c
       - dank rails s
