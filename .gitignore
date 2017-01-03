@@ -29,6 +29,7 @@
 /*.rdb
 /.oh-my-zsh
 /.nvm
+/.pow
 
 !.nvm/install.sh
 !Brewfile
