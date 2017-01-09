@@ -19,6 +19,7 @@ brew 'imagemagick'
 brew 'lame'
 brew 'openssl'
 brew 'libevent'
+brew 'mas'
 brew 'pcre'
 brew 'pkg-config'
 brew 'readline'
@@ -53,3 +54,12 @@ cask 'sublime-text'
 cask 'transmit'
 cask 'vlc'
 cask 'vyprvpn'
+mas 'Downcast', id: 668429425
+mas '1Password', id: 443987910
+mas 'GarageBand', id: 682658836
+mas 'Annotate', id: 918207447
+mas 'iMovie', id: 408981434
+mas 'Pages', id: 409201541
+mas 'Keynote', id: 409183694
+mas 'Display Menu', id: 549083868
+mas 'Numbers', id: 409203825
