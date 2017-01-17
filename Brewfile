@@ -45,6 +45,7 @@ cask 'dash'
 cask 'discord'
 cask 'firefox'
 cask 'iterm2'
+cask 'macdown'
 cask 'screenhero'
 cask 'slack'
 cask 'spectacle'
@@ -62,4 +63,5 @@ mas 'iMovie', id: 408981434
 mas 'Pages', id: 409201541
 mas 'Keynote', id: 409183694
 mas 'Display Menu', id: 549083868
+mas 'Xcode', id: 497799835
 mas 'Numbers', id: 409203825
