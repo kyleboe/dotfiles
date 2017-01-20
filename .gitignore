@@ -32,6 +32,7 @@
 /.pow
 /.hex
 /.mix
+/.npm
 
 !.nvm/install.sh
 !Brewfile
