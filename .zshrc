@@ -69,7 +69,7 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-export EDITOR='subl'
+# export EDITOR='subl'
 
 
 # Compilation flags
