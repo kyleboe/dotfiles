@@ -93,3 +93,4 @@ alias dank="bundle exec"
 alias reload=". ~/.zshrc"
 alias brewdump='brew bundle dump --force'
 eval "$(rbenv init -)"
+eval "$(exenv init -)"
