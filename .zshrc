@@ -65,6 +65,9 @@ export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT=/usr/local/var/pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
+export EXENV_ROOT=/usr/local/var/exenv
+if which exenv > /dev/null; then eval "$(exenv init -)"; fi
+
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
