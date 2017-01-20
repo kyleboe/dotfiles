@@ -30,6 +30,8 @@
 /.oh-my-zsh
 /.nvm
 /.pow
+/.hex
+/.mix
 
 !.nvm/install.sh
 !Brewfile
