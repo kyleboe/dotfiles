@@ -59,6 +59,7 @@ cask 'sublime-text'
 cask 'transmit'
 cask 'vlc'
 cask 'vyprvpn'
+mas 'Mactracker', id: 430255202
 mas 'Downcast', id: 668429425
 mas '1Password', id: 443987910
 mas 'GarageBand', id: 682658836
