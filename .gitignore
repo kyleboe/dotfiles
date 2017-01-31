@@ -33,6 +33,7 @@
 /.hex
 /.mix
 /.npm
+/.dropbox
 
 !.nvm/install.sh
 !Brewfile
