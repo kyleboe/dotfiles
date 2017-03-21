@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'homebrew/versions'
+tap 'koekeishiya/formulae'
 cask 'java'
 brew 'libyaml'
 brew 'openssl@1.1'
@@ -27,13 +28,13 @@ brew 'erlang'
 brew 'elixir'
 brew 'elixir-build'
 brew 'exenv'
+brew 'exercism'
 brew 'freetype'
 brew 'libtool'
 brew 'xz'
 brew 'imagemagick'
 brew 'lame'
 brew 'libevent'
-brew 'libspotify'
 brew 'mas'
 brew 'pcre'
 brew 'pkg-config'
@@ -48,6 +49,7 @@ brew 'tmux'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'homebrew/versions/v8-315'
+brew 'koekeishiya/formulae/kwm'
 cask 'airfoil'
 cask 'airserver'
 cask 'alfred'
@@ -72,14 +74,14 @@ cask 'vagrant'
 cask 'virtualbox'
 cask 'vlc'
 cask 'vyprvpn'
-mas 'Mactracker', id: 430255202
-mas 'Downcast', id: 668429425
 mas '1Password', id: 443987910
-mas 'GarageBand', id: 682658836
 mas 'Annotate', id: 918207447
-mas 'iMovie', id: 408981434
-mas 'Pages', id: 409201541
-mas 'Keynote', id: 409183694
 mas 'Display Menu', id: 549083868
-mas 'Xcode', id: 497799835
+mas 'Downcast', id: 668429425
+mas 'GarageBand', id: 682658836
+mas 'iMovie', id: 408981434
+mas 'Keynote', id: 409183694
+mas 'Mactracker', id: 430255202
 mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Xcode', id: 497799835
