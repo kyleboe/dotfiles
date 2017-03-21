@@ -32,7 +32,7 @@ cmd + ctrl - d           :    kwmc space -t float
 cmd + ctrl - r           :    kwmc tree rotate 90
 
 # Set Temporary Window Container
-prefix - f               :    kwmc window -z fullscreen
+cmd + alt + ctrl - p               :    kwmc window -z fullscreen
 prefix - d               :    kwmc window -z parent
 prefix - w               :    kwmc window -t focused
 
