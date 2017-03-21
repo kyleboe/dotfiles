@@ -37,20 +37,20 @@ prefix - d               :    kwmc window -z parent
 prefix - w               :    kwmc window -t focused
 
 # Mark Window
-cmd + alt + ctrl - m     :    kwmc window -mk focused
+cmd + alt + ctrl - k     :    kwmc window -mk focused
 
 # Give Focus To Window
-cmd + alt - left         :    kwmc window -f west
-cmd + alt - right        :    kwmc window -f east
-cmd + alt - down         :    kwmc window -f south
-cmd + alt - up           :    kwmc window -f north
+cmd + alt + ctrl - j         :    kwmc window -f west
+cmd + alt + ctrl - l         :    kwmc window -f east
+cmd + alt + ctrl - 0x2B      :    kwmc window -f south
+cmd + alt + ctrl - i         :    kwmc window -f north
 
 # Swap Focused Window
-cmd + alt + shift - left        :    kwmc window -s west
-cmd + alt + shift - down        :    kwmc window -s south
-cmd + alt + shift - up          :    kwmc window -s north
-cmd + alt + shift - right       :    kwmc window -s east
-cmd + alt + shift - m           :    kwmc window -s mark
+cmd + alt + ctrl - u         :    kwmc window -s west
+cmd + alt + ctrl - 0x2F      :    kwmc window -s south
+cmd + alt + ctrl - m          :    kwmc window -s north
+cmd + alt + ctrl - o       :    kwmc window -s east
+cmd + alt + ctrl - 0x29           :    kwmc window -s mark
 
 # Detach Focused Window And Reinsert In Direction
 cmd + alt + shift + ctrl - left         :    kwmc window -m west
@@ -59,7 +59,7 @@ cmd + alt + shift + ctrl - up           :    kwmc window -m north
 cmd + alt + shift + ctrl - right        :    kwmc window -m east
 
 # Detach Marked Window And Reinsert At Focused Window
-ctrl + shift - x         :    kwmc window -m mark
+cmd + alt + ctrl - n         :    kwmc window -m mark
 
 # Move Focused Window To Space
 ctrl + alt - left        :    kwmc window -m space left
