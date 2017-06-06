@@ -92,5 +92,6 @@ export LANG=en_US.UTF-8
 alias dank="bundle exec"
 alias reload=". ~/.zshrc"
 alias brewdump='brew bundle dump --force'
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 eval "$(rbenv init -)"
 eval "$(exenv init -)"
