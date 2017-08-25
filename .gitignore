@@ -16,11 +16,15 @@
 /.gitconfig
 
 # general junk
+/.cache
 /.CFUserTextEncoding
+/.cups
 /.bash_profile
 /.bash_sessions
 /.bundle
 /.gem
+/.lesshst
+/.oracle_jre_usage
 /.tmux
 /.ssh
 /.viminfo
@@ -36,6 +40,8 @@
 /.dropbox
 /.aws
 /.vagrant.d
+/.vscode
+/.yarnrc
 
 !.nvm/install.sh
 !Brewfile
