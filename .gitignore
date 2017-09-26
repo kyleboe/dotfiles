@@ -18,10 +18,12 @@
 # general junk
 /.cache
 /.CFUserTextEncoding
+/.config
 /.cups
 /.bash_profile
 /.bash_sessions
 /.bundle
+/.electron
 /.gem
 /.lesshst
 /.oracle_jre_usage
