@@ -1,87 +1,84 @@
-tap 'caskroom/cask'
-tap 'homebrew/binary'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'homebrew/services'
-tap 'homebrew/versions'
-tap 'koekeishiya/formulae'
-cask 'java'
-brew 'autoconf'
-brew 'awscli'
-brew 'bfg'
-brew 'cmatrix'
-brew 'docker'
-brew 'doxygen'
-brew 'openssl'
-brew 'jpeg'
-brew 'libpng'
-brew 'libtiff'
-brew 'wxmac'
-brew 'erlang'
-brew 'elixir'
-brew 'elixir-build'
-brew 'exenv'
-brew 'exercism'
-brew 'freetype'
-brew 'gdbm'
-brew 'libtool'
-brew 'xz'
-brew 'imagemagick'
-brew 'lame'
-brew 'libevent'
-brew 'libyaml'
-brew 'mas'
-brew 'openssl@1.1'
-brew 'pcre'
-brew 'pkg-config'
-brew 'readline'
-brew 'sqlite'
-brew 'python'
-brew 'postgresql', restart_service: true
-brew 'pyenv'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'reattach-to-user-namespace'
-brew 'redis', restart_service: true
-brew 'screenfetch'
-brew 'tmux'
-brew 'zsh'
-brew 'zsh-completions'
-brew 'homebrew/versions/v8-315'
-brew 'koekeishiya/formulae/khd'
-brew 'koekeishiya/formulae/kwm'
-cask 'airfoil'
-cask 'airserver'
-cask 'alfred'
-cask 'appcleaner'
-cask 'bartender'
-cask 'caffeine'
-cask 'dash'
-cask 'discord'
-cask 'firefox'
-cask 'gimp'
-cask 'iterm2'
-cask 'keybase'
-cask 'macdown'
-cask 'screenhero'
-cask 'slack'
-cask 'spectacle'
-cask 'spotify-notifications'
-cask 'steam'
-cask 'sublime-text'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'vlc'
-cask 'vyprvpn'
-mas '1Password', id: 443987910
-mas 'Annotate', id: 918207447
-mas 'Display Menu', id: 549083868
-mas 'Downcast', id: 668429425
-mas 'GarageBand', id: 682658836
-mas 'iMovie', id: 408981434
-mas 'Keynote', id: 409183694
-mas 'Mactracker', id: 430255202
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'Xcode', id: 497799835
+tap "homebrew/core"
+tap "homebrew/versions"
+tap "homebrew/binary"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "koekeishiya/formulae"
+tap "caskroom/drivers"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "caskroom/cask"
+tap "caskroom/eid"
+tap "vitorgalvao/tiny-scripts"
+cask "java"
+brew "autoconf"
+brew "awscli"
+brew "bfg"
+brew "cmatrix"
+brew "docker"
+brew "doxygen"
+brew "elixir"
+brew "elixir-build"
+brew "exenv"
+brew "exercism"
+brew "freetype"
+brew "gdbm"
+brew "libtool"
+brew "imagemagick"
+brew "lame"
+brew "libevent"
+brew "mas"
+brew "pcre"
+brew "postgresql", restart_service: true
+brew "pyenv"
+brew "ruby-build"
+brew "rbenv"
+brew "reattach-to-user-namespace"
+brew "redis", restart_service: true
+brew "screenfetch"
+brew "tmux"
+brew "v8@3.15"
+brew "yarn"
+brew "zsh"
+brew "zsh-completions"
+brew "koekeishiya/formulae/kwm"
+brew "vitorgalvao/tiny-scripts/cask-repair"
+cask "airfoil"
+cask "airserver"
+cask "alfred"
+cask "appcleaner"
+cask "bartender"
+cask "caffeine"
+cask "dash"
+cask "discord"
+cask "firefox"
+cask "gimp"
+cask "google-earth-pro"
+cask "iterm2"
+cask "keybase"
+cask "kindlegen"
+cask "macdown"
+cask "postman"
+cask "resilio-sync"
+cask "screenhero"
+cask "slack"
+cask "spectacle"
+cask "steam"
+cask "sublime-text"
+cask "transmit"
+cask "vagrant"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "vlc"
+cask "vyprvpn"
+mas "1Password", id: 443987910
+mas "Annotate", id: 918207447
+mas "Display Menu", id: 549083868
+mas "Downcast", id: 668429425
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Mactracker", id: 430255202
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
