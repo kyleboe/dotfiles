@@ -16,16 +16,18 @@
 /.gitconfig
 
 # general junk
+/.bash_profile
+/.bash_sessions
+/.bundle
 /.cache
 /.CFUserTextEncoding
 /.config
 /.cups
-/.bash_profile
-/.bash_sessions
-/.bundle
+/.docker
 /.electron
 /.gem
 /.lesshst
+/.local
 /.oracle_jre_usage
 /.tmux
 /.ssh
