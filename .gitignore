@@ -26,6 +26,7 @@
 /.docker
 /.electron
 /.gem
+/.gnupg
 /.lesshst
 /.local
 /.oracle_jre_usage
