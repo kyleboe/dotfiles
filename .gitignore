@@ -16,6 +16,7 @@
 /.gitconfig
 
 # general junk
+/.android
 /.bash_profile
 /.bash_sessions
 /.bundle
@@ -26,7 +27,7 @@
 /.docker
 /.electron
 /.gem
-/.gnupg
+/.gnupg*
 /.lesshst
 /.local
 /.oracle_jre_usage
@@ -45,6 +46,7 @@
 /.dropbox
 /.aws
 /.vagrant.d
+/.virtualenvs
 /.vscode
 /.yarnrc
 
