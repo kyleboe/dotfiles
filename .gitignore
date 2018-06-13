@@ -25,10 +25,11 @@
 /.config
 /.cups
 /.docker
-/.electron
+/.electron*
 /.gem
 /.gnupg*
 /.lesshst
+/.libui
 /.local
 /.oracle_jre_usage
 /.tmux
@@ -38,6 +39,9 @@
 /.rbenv
 /*.rdb
 /.oh-my-zsh
+/.ncmpcpp
+/.netrc
+/.node-gyp
 /.nvm
 /.pow
 /.hex
