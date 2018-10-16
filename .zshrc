@@ -62,17 +62,17 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
-export PYENV_ROOT=/usr/local/var/pyenv
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-export EXENV_ROOT=/usr/local/var/exenv
-if which exenv > /dev/null; then eval "$(exenv init -)"; fi
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# export EDITOR='subl'
+export EDITOR='code'
 
 
 # Compilation flags
@@ -89,11 +89,9 @@ export GPG_TTY=$(tty)
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="subl ~/.zshrc"
-alias ohmyzsh="subl ~/.oh-my-zsh"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
 alias dank="bundle exec"
 alias reload=". ~/.zshrc"
 alias brewdump='brew bundle dump --force'
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
-eval "$(rbenv init -)"
-eval "$(exenv init -)"
