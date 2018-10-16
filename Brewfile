@@ -1,30 +1,32 @@
 tap "heroku/brew"
+tap "homebrew/binary"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-eid"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "homebrew/versions"
-tap "homebrew/binary"
-tap "homebrew/cask-eid"
-tap "homebrew/cask"
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "homebrew/services"
-tap "homebrew/cask-drivers"
+tap "homebrew/versions"
 tap "koekeishiya/formulae"
 tap "vitorgalvao/tiny-scripts"
 cask "java"
 brew "autoconf"
+brew "gdbm"
+brew "readline"
+brew "aws-elasticbeanstalk"
+brew "xz"
+brew "python"
 brew "awscli"
 brew "bfg"
 brew "cmatrix"
-brew "docker", link: false
 brew "doxygen"
 brew "elixir"
 brew "elixir-build"
 brew "elm"
-brew "exenv"
 brew "exercism"
 brew "freetype"
-brew "gdbm"
 brew "gnupg"
 brew "gpg-agent"
 brew "icecast"
@@ -36,12 +38,12 @@ brew "mas"
 brew "ncmpcpp"
 brew "pcre"
 brew "pinentry-mac"
-brew "postgresql", restart_service: true
+brew "postgresql"
 brew "pyenv"
 brew "ruby-build"
 brew "rbenv"
 brew "reattach-to-user-namespace"
-brew "redis", restart_service: true
+brew "redis"
 brew "screenfetch"
 brew "tmux"
 brew "v8@3.15"
@@ -81,21 +83,18 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
 cask "vyprvpn"
-mas "1Password", id: 443987910
 mas "1Password 7", id: 1333542190
 mas "Annotate", id: 918207447
 mas "Bear", id: 1091189122
 mas "Display Menu", id: 549083868
 mas "Downcast", id: 668429425
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Mactracker", id: 430255202
 mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pocket", id: 568494494
-mas "QuickBooks", id: 640830064
 mas "Spark", id: 1176895641
 mas "Trello", id: 1278508951
 mas "Twitter", id: 409789998
