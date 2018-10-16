@@ -17,17 +17,22 @@
 
 # general junk
 /.android
+/.aws
 /.bash_profile
 /.bash_sessions
 /.bundle
 /.cache
 /.CFUserTextEncoding
+/.chromedriver-helper
 /.config
 /.cups
 /.docker
+/.dropbox
 /.electron*
 /.gem
 /.gnupg*
+/.hex
+/.jspm
 /.lesshst
 /.libui
 /.local
@@ -39,20 +44,20 @@
 /.rbenv
 /*.rdb
 /.oh-my-zsh
+/.mix
 /.ncmpcpp
 /.netrc
 /.node-gyp
+/.npm
 /.nvm
 /.pow
-/.hex
-/.mix
-/.npm
-/.dropbox
-/.aws
+/.pyenv
 /.vagrant.d
 /.virtualenvs
 /.vscode
+/.wakatime*
 /.yarnrc
+/.zoomus
 
 !.nvm/install.sh
 !Brewfile
