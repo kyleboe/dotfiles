@@ -38,6 +38,7 @@
 /.local
 /.oracle_jre_usage
 /.tmux
+/.serverless*
 /.ssh
 /.viminfo
 /.subversion

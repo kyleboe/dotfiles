@@ -83,6 +83,13 @@ export EDITOR='code'
 
 export GPG_TTY=$(tty)
 
+if [ -f ~/.gnupg/.gpg-agent-info ] && [ -n "$(pgrep gpg-agent)" ]; then
+    source ~/.gnupg/.gpg-agent-info
+    export GPG_AGENT_INFO
+else
+    eval $(gpg-agent --daemon ~/.gnupg/.gpg-agent-info)
+fi
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -95,3 +102,11 @@ alias dank="bundle exec"
 alias reload=". ~/.zshrc"
 alias brewdump='brew bundle dump --force'
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/kyleboe/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/kyleboe/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/kyleboe/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/kyleboe/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
+eval "$(rbenv init -)"
