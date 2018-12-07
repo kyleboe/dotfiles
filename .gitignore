@@ -50,6 +50,7 @@
 /.netrc
 /.node-gyp
 /.npm
+/.npmrc
 /.nvm
 /.pow
 /.pyenv
