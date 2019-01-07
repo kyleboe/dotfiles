@@ -37,6 +37,7 @@
 /.libui
 /.local
 /.oracle_jre_usage
+/.thumbnails
 /.tmux
 /.serverless*
 /.ssh
