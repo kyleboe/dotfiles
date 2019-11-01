@@ -29,6 +29,7 @@
 /.docker
 /.dropbox
 /.electron*
+/.fzf.zsh
 /.gem
 /.gnupg*
 /.hex
@@ -48,6 +49,7 @@
 /*.rdb
 /.oh-my-zsh
 /.mix
+/.mono
 /.ncmpcpp
 /.netrc
 /.node-gyp
@@ -58,6 +60,7 @@
 /.pyenv
 /.vagrant.d
 /.virtualenvs
+/.virtualenv
 /.vscode
 /.wakatime*
 /.yarnrc

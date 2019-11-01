@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git bundler osx rake ruby postgres rails sublime tmux emoji)
+plugins=(git bundler osx rake ruby postgres rails tmux emoji)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -63,11 +63,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
@@ -102,4 +97,5 @@ alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /Users/kyleboe/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/kyleboe/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
-eval "$(rbenv init -)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
